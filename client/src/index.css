@@ -1,0 +1,45 @@
+/* index.css */
+
+/* Resets and Normalization */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Body Styling */
+body {
+  background-color: #f7f7f7;
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Global Link Styling */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
